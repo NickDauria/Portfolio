@@ -16,6 +16,8 @@ Welcome to my GitHub! I’m an aspiring cybersecurity analyst with CompTIA Netwo
 ## About Me
 - **Experience**: 6 years in IT support and cybersecurity (CyberOps Analyst, Help Desk).  
 - **Skills**: Nessus, Splunk, Nmap, Wireshark, Python, Active Directory.  
-- **Contact**: [insertemail]@gmail.com | [LinkedIn URL if applicable]
+- **Contact**: nick.dauria4@gmail.com | www.linkedin.com/in/daurianicolas
+
+
 
 Explore each folder for detailed READMEs, reports, and code. Happy to discuss my work in interviews!
