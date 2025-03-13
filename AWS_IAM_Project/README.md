@@ -46,7 +46,8 @@ This project demonstrates how to use AWS IAM to manage users, groups, and permis
 ---
 
 ## 7. Clean-Up Process
-![Clean-Up](screenshots/clean-up.png)  
+![Clean-Up](clean-up-users.png)  
+![Clean-Up](clean-up-groups.png)  
 *After completing the project, I cleaned up by deleting the users and groups to avoid any potential security risks or unnecessary costs. This step is crucial in maintaining a secure and cost-effective cloud environment.*
 
 ---
