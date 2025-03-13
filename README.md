@@ -8,6 +8,9 @@ Welcome to my GitHub! I’m an aspiring cybersecurity analyst with CompTIA Netwo
   Developed an advanced port scanner with parallel scanning, service detection (e.g., RPC, SMB), and file output capabilities. 
 - **[Security Policy Document](/Security_Policy)**  
   Wrote a policy on password management and incident response.
+- **[AWS IAM Project: Access Control and Authentication](/AWS)**
+  This project demonstrates how to use AWS IAM to manage users, groups, and permissions securely. I created two users and two groups to enforce the    principle of least privilege and added MFA for extra security.
+
 
 ## About Me
 - **Experience**: 6 years in IT support and cybersecurity (CyberOps Analyst, Help Desk).  
