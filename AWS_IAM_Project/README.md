@@ -11,34 +11,36 @@ This project demonstrates how to use AWS IAM to manage users, groups, and permis
 ---
 
 ## 2. User Creation
-![User Creation](screenshots/user-creation.png)  
+![User Creation](user-creation.png)  
 *I created two users: 'AdminUser' and 'RegularUser.' Each user has unique credentials and is assigned to different groups based on their roles. This separation ensures that permissions are tailored to the specific needs of each user, reducing the risk of unauthorized access.*
 
 ---
 
 ## 3. Group Creation and User Assignment
-![Group Creation](screenshots/group-creation.png)  
+![Group Creation](group-creation.png)  
 *I set up two groups: 'Admins' and 'Developers.' The 'Admins' group includes 'AdminUser,' who needs full access to manage resources, while the 'Developers' group includes 'RegularUser,' who only requires read-only access. Grouping users simplifies permission management and ensures consistency across similar roles.*
 
 ---
 
 ## 4. Permission Assignment
-![Permission Assignment](screenshots/permission-assignment.png)  
+![Permission Assignment](permission-assignment-1.png)  
+![Permission Assignment](permission-assignment-2.png) 
 *I assigned the 'AdministratorAccess' policy to the 'Admins' group, granting full access to AWS services. For the 'Developers' group, I attached the 'ReadOnlyAccess' policy, allowing users to view resources without making changes. This setup enforces the principle of least privilege by limiting access based on job requirements.*
 
 ---
 
 ## 5. MFA Configuration
-![MFA Configuration](screenshots/mfa-configuration.png)  
+![MFA Configuration](mfa-configuration.png)  
 *To enhance security, I enabled Multi-Factor Authentication (MFA) for 'AdminUser.' MFA adds an extra layer of protection by requiring a second form of authentication, such as a code from a mobile app, in addition to the password. This is especially important for users with administrative privileges.*
 
 ---
 
 ## 6. Testing Permissions
-![AdminUser Success](screenshots/admin-success.png)  
+![AdminUser Success](admin-success.png)  
 *I tested the permissions by logging in as 'AdminUser.' As shown in this screenshot, I successfully created an S3 bucket named 'test-bucket-admin-2025,' demonstrating that the 'AdministratorAccess' policy grants full access to AWS services.*
 
-![RegularUser Failure](screenshots/regular-failure.png)  
+![RegularUser Failure](dev1-failure-1.png)  
+![RegularUser Failure](dev1-failure-2.png)  
 *When logged in as 'RegularUser,' I attempted to create an S3 bucket but received an 'Access Denied' error, as shown here. This confirms that the 'ReadOnlyAccess' policy correctly restricts this user to viewing resources without the ability to modify or create them.*
 
 ---
