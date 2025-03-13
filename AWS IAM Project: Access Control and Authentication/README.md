@@ -5,7 +5,7 @@ This project demonstrates how to use AWS IAM to manage users, groups, and permis
 ---
 
 ## 1. IAM Dashboard Overview
-![IAM Dashboard](screenshots/iam-dashboard.png)  
+![IAM Dashboard](IAM Dashboard.png)  
 *This screenshot shows the AWS IAM dashboard, where I manage access to AWS resources. It provides an overview of the current IAM setup, including the number of users, groups, and policies. For this project, I focused on creating and managing users and groups to enforce the principle of least privilege.*
 
 ---
