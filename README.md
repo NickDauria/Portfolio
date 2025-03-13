@@ -9,7 +9,7 @@ Welcome to my GitHub! I’m an aspiring cybersecurity analyst with CompTIA Netwo
 - **[Home Network Security Setup](/Home_Network_Security)**  
   Secured a network with Nmap scans and firewall configurations.  
 - **[Python Port Scanner](/Python_Port_Scanner)**  
-  Developed a script to automate port scanning—see code in action.  
+  Developed an advanced port scanner with parallel scanning, service detection (e.g., RPC, SMB), and file output capabilities. 
 - **[Security Policy Document](/Security_Policy)**  
   Wrote a policy on password management and incident response.
 
