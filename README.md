@@ -3,11 +3,7 @@ Welcome to my GitHub! I’m an aspiring cybersecurity analyst with CompTIA Netwo
 
 ## Projects
 - **[Vulnerability Scanning with Nessus](/Vulnerability_Scanning_Nessus)**  
-  Scanned a test environment, identified vulnerabilities, and documented fixes.  
-- **[Log Analysis with Splunk](/Log_Analysis_Splunk)**  
-  Analyzed logs to detect incidents, built dashboards for monitoring.  
-- **[Home Network Security Setup](/Home_Network_Security)**  
-  Secured a network with Nmap scans and firewall configurations.  
+  Scanned a test environment, identified vulnerabilities, and documented fixes.   
 - **[Python Port Scanner](/Python_Port_Scanner)**  
   Developed an advanced port scanner with parallel scanning, service detection (e.g., RPC, SMB), and file output capabilities. 
 - **[Security Policy Document](/Security_Policy)**  
