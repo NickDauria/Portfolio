@@ -1,0 +1,14 @@
+Scan Results for 192.168.56.105 on 2025-03-13 14:47:59
+Scanned ports 1 to 1000
+Open Ports:
+Port 111 - Service: Unknown
+Port 512 - Service: Unknown
+Port 513 - Service: Unknown
+Port 514 - Service: Unknown
+Port 21 - Service: FTP
+Port 22 - Service: SSH
+Port 23 - Service: Unknown
+Port 25 - Service: Unknown
+Port 139 - Service: NetBIOS
+Port 53 - Service: Unknown
+Port 80 - Service: HTTP
