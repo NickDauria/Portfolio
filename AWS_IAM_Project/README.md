@@ -12,13 +12,13 @@ This project demonstrates how to use AWS IAM to manage users, groups, and permis
 
 ## 2. User Creation
 ![User Creation](user-creation.png)  
-*I created two users: 'AdminUser' and 'RegularUser.' Each user has unique credentials and is assigned to different groups based on their roles. This separation ensures that permissions are tailored to the specific needs of each user, reducing the risk of unauthorized access.*
+*I created two users: 'Admin' and 'Dev1.' Each user has unique credentials and is assigned to different groups based on their roles. This separation ensures that permissions are tailored to the specific needs of each user, reducing the risk of unauthorized access.*
 
 ---
 
 ## 3. Group Creation and User Assignment
 ![Group Creation](group-creation.png)  
-*I set up two groups: 'Admins' and 'Developers.' The 'Admins' group includes 'AdminUser,' who needs full access to manage resources, while the 'Developers' group includes 'RegularUser,' who only requires read-only access. Grouping users simplifies permission management and ensures consistency across similar roles.*
+*I set up two groups: 'Admins' and 'Developers.' The 'Admins' group includes 'Admin,' who needs full access to manage resources, while the 'Developers' group includes 'Dev1,' who only requires read-only access. Grouping users simplifies permission management and ensures consistency across similar roles.*
 
 ---
 
@@ -31,17 +31,17 @@ This project demonstrates how to use AWS IAM to manage users, groups, and permis
 
 ## 5. MFA Configuration
 ![MFA Configuration](mfa-configuration.png)  
-*To enhance security, I enabled Multi-Factor Authentication (MFA) for 'AdminUser.' MFA adds an extra layer of protection by requiring a second form of authentication, such as a code from a mobile app, in addition to the password. This is especially important for users with administrative privileges.*
+*To enhance security, I enabled Multi-Factor Authentication (MFA) for 'Admin.' MFA adds an extra layer of protection by requiring a second form of authentication, such as a code from a mobile app, in addition to the password. This is especially important for users with administrative privileges.*
 
 ---
 
 ## 6. Testing Permissions
 ![AdminUser Success](admin-success.png)  
-*I tested the permissions by logging in as 'AdminUser.' As shown in this screenshot, I successfully created an S3 bucket named 'test-bucket-admin-2025,' demonstrating that the 'AdministratorAccess' policy grants full access to AWS services.*
+*I tested the permissions by logging in as 'Admin.' As shown in this screenshot, I successfully created an S3 bucket named 'test-bucket-admin-2025,' demonstrating that the 'AdministratorAccess' policy grants full access to AWS services.*
 
 ![RegularUser Failure](dev1-failure-1.png)  
 ![RegularUser Failure](dev1-failure-2.png)  
-*When logged in as 'RegularUser,' I attempted to create an S3 bucket but received an 'Access Denied' error, as shown here. This confirms that the 'ReadOnlyAccess' policy correctly restricts this user to viewing resources without the ability to modify or create them.*
+*When logged in as 'dev1,' I attempted to create an S3 bucket but received an 'Access Denied' error, as shown here. This confirms that the 'ReadOnlyAccess' policy correctly restricts this user to viewing resources without the ability to modify or create them.*
 
 ---
 
